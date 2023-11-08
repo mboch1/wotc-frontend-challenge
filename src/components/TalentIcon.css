@@ -1,0 +1,31 @@
+canvas {
+  border: 4px solid;
+  margin: auto 0;
+  cursor: pointer;
+  border-image: linear-gradient(to bottom, #4d4d4d 50%, #3f3f3f 50%, #4d4d4d 100%) 1;
+}
+
+.canvas-active {
+  border: 4px solid;
+  cursor: pointer;
+  transition: all 0.25s ease-in;
+  box-shadow: 0px 0px 8px 6px #2c3237;
+  border-image: linear-gradient(to bottom, #6ca6deff 50%, #293d52 50%, #6ca6deff 100%) 1;
+}
+
+.canvas-active:hover {
+  filter: brightness(1.25);
+}
+
+.canvas-disabled {
+  cursor: default;
+  filter: brightness(0.5);
+}
+
+.icon-button {
+  all: unset;
+}
+
+.icon-button:focus {
+  outline: revert;
+}

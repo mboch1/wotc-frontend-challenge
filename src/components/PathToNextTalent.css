@@ -1,0 +1,15 @@
+.path {
+  margin: auto 0;
+  min-width: 16px;
+  width: 100%;
+  height: 16px;
+  background-color: #3f3f3f;
+  border-top: 2px solid #3e3f41;
+  border-bottom: 2px solid #3e3f41;
+  opacity: 65%;
+}
+
+.inactive {
+  filter: brightness(0.5);
+  opacity: 50%;
+}

@@ -1,0 +1,111 @@
+.component-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  background: url(../assets/talent-calc-bg.png);
+  background-size: cover;
+  border: 2px solid rgb(16, 21, 25);
+  padding: 16px;
+}
+
+.talents {
+  flex: 1;
+}
+
+.talent-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 32px auto;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 16px auto;
+  }
+}
+
+.talent-path {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+.talent-path:last-child {
+  margin-bottom: 0;
+}
+
+.talent-name {
+  margin: auto 0;
+  font-size: 0.85em;
+  font-weight: 500;
+  text-wrap: nowrap;
+  color: #b5b5b5;
+
+  @media screen and (max-width: 768px) {
+    margin: 16px 0;
+  }
+}
+
+.talent-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 48px;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto 32px;
+  padding: 32px;
+  border: 2px solid rgb(16, 21, 25);
+  background-color: #060a0c;
+
+  @media screen and (max-width: 768px) {
+    margin: 32px auto 0 auto;
+    padding: 16px;
+    flex-direction: row;
+  }
+}
+
+.counter-talent-points {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    text-align: start;
+    font-size: 1.5rem;
+  }
+}
+
+.counter-text {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #395067;
+  text-wrap: nowrap;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 16px;
+    font-size: 1.5rem;
+  }
+}
+
+h1 {
+  background-color: rgba(29, 29, 29, 0.5);
+  text-align: center;
+  font-weight: 400;
+  padding: 16px;
+
+  @media screen and (max-width: 390px) {
+    font-size: 1.5em;
+  }
+}
